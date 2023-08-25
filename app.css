@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+    font-size: 20px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+.qstn{
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+span{
+    background-color: tomato;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.ans{
+   width: 100%;
+}
+.DescriptionImg{
+    width: 100%;
+}
